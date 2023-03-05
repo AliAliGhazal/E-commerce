@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+ /* Header */
+
+ .section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 0px 90px;
+    width: 100%;
+    
+}
+
+/* Nav left */
+
+.navleft .fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.navleft input{
+    margin-left: 15px;
+    border: none;
+    font-size: medium;
+}  
+
+.navleft input:focus{
+    outline: none;
+}
+
+/* End Nav left */
+
+/* Nav Middle */
+
+.navMiddle{
+    border: 3px  black;
+    border-style: double ;
+    font-family: 'Hanalei Fill';
+    padding: 10px;
+    font-size: 138%;
+    margin-left: -7%; 
+    margin-top: -1%; 
+}
+
+/* End Nav Middle */
+
+/* Nav Right */
+
+.two{
+    position: relative;
+    top: -17px;
+    left: 110px;
+    border-radius: 50%;
+    background-color: rgb(163, 6, 163);
+    color: white;
+    padding: 2px 6.5px;
+}
+
+.navright i {
+    margin: 7px;
+    color: gray;
+}
+
+.navright i:hover {
+    color: black;
+}
+
+/* Nav Right */
+
+ /* End Header */
+
+ /* NAV */
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 30px;    
+}
+
+.nav1 a {
+    margin: 0 30px;
+    color: black;
+    font-family: 'Charmonman';
+    font-weight: bold;
+}
+
+.nav1 a:hover {
+    color: rgb(196, 8, 220);
+}
+
+.nav1 .active {
+     color:  rgb(196, 8, 220);
+    border-bottom: 3px solid  rgb(5, 13, 169);
+}
+
+/* End NAV */
+
+/* Div1 */
+
+.link {
+    background-color: rgb(245, 244, 244);
+    padding: 20px 100px;
+    font-family: 'Aclonica';
+    font-size: 120%;
+}
+
+.link span {
+    color: blueviolet;
+}
+
+/* End Div1 */
+
+
+/* BODY */
+
+.body {
+    position: absolute;
+    border: 3px solid black;
+    margin-left: -250px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CATEGORIES */
+
+.section2{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.cteg {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.or {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+}
+
+.move {
+    margin: 15px 20px;
+    font-family: 'Hanalei Fill';
+}
+
+.gor {
+    display: flex;
+
+}
+
+.en {
+    display: flex;
+    flex-direction: column;
+}
+
+.en a{
+    font-family: 'Aclonica';
+    font-size: 110%;
+    margin-top: -4%;
+}
+
+.en h5 {
+    margin-left: 70px;
+    font-family: 'Aclonica';
+}
+
+
+/* END CATEGORIES */
+
+/* FILTER BY PRICE */
+
+.ter {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+    width: 250px;
+    height: 520px;
+    position: relative;
+    top: 50px;
+}
+
+.ney h5 {
+    color: rgb(153, 151, 151);
+    font-size: 110%;
+}
+
+.sizo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizo input{
+    margin-top: 7%;
+}
+
+/* END FILTER BY PRICE */
+
+/* COLOR */
+
+.color {
+    display: flex;
+}
+
+.olo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.red {
+    background-color: red;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: red;
+    margin-top: -2px;
+}
+
+.green {
+    background-color: green;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: green;
+    margin-top: -4px;
+}
+
+.blue {
+    background-color: blue;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: blue;
+    margin-top: -4px;
+}
+
+.purple {
+    background-color: purple;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: purple;
+    margin-top: -4px;
+}
+
+/* END COLOR */
+
+
+
+/* BODY */
+
+.cont {
+    text-align: center;
+    margin: 70px 40px;
+}
+
+.shp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+}
+
+.shp h1{
+    font-family: 'Vast Shadow';
+}
+
+select {
+    padding: 9px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 2px;
+    border: none;
+    top: 0;
+    font-family: 'Audiowide';
+    transition: top ease 0.7s;
+}
+
+select:hover {
+    top: -4px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+
+
+/* ــــــــــــــ */
+
+.ee {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.cor {
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(206, 206, 206);
+    border-radius: 3px;
+}
+
+.card {
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    background-color: white;
+    padding: 50px;
+}
+
+.card h2{
+    font-family: 'Aclonica';
+}
+
+.card h5{
+    font-family: 'Audiowide';
+}
+
+/* ــــــــــــــ */
+
+
+/* ــــــــــــــ 2  */
+
+.arkam {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+}
+
+.arkam h5 {
+    color: rgb(115, 14, 119);
+    border: 1px solid rgb(115, 14, 119);
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-top: -10px;
+    margin: 0 5px;
+}
+
+.arkam h5:hover {
+    background-color: rgb(115, 14, 119);
+    color: white;
+}
+
+.arkam i {
+    color: rgb(115, 14, 119);
+    border: 1px solid rgb(115, 14, 119);
+    border-radius: 50%;
+    padding: 11px 14px;
+    margin-top: -10px;
+    margin: 0 5px;
+
+}
+
+.arkam i:hover {
+    background-color: rgb(115, 14, 119);
+    color: white;
+}
+
+/* ــــــــــــــ 2  */
+
+
+/* Section4 */
+
+.section4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 70px 60px 100px;
+}
+
+.qq {
+    z-index: -1;
+    filter: brightness(65%);
+}
+
+.qw {
+    width: 400px;
+    overflow: hidden;
+}
+
+.qq:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.word {
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-top: -80px;
+    margin-left: 20px;
+    top: -25px;
+}
+
+.word h1 {
+    font-size: 40px;
+    font-family: 'Fruktur';
+}
+.word h5{
+    font-family: 'Hanalei Fill';
+}
+
+/* End Section4 */
+
+
+
+
+/* Footer */
+
+footer {
+    display: block;
+    margin: 0 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 5%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.en h2 {
+    margin-left: 50px;
+    font-family: 'Hanalei Fill';
+}
+
+.men {
+    margin: 0 50px;
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 140%;
+}
+
+.men h4 {
+    margin: 10px 0;
+    color: rgb(143, 142, 142);
+    font-family: 'Charmonman';
+}
+
+.div5 h2{
+    font-family: 'Hanalei Fill';
+}
+
+.div5 a{
+    font-family: 'Charmonman';
+    font-weight: 200;
+    font-size: 120%;
+}
+
+.div5 h5{
+    font-family: 'Fruktur';
+    font-weight: 200;
+    font-size: 100%;
+}
+
+
+footer h5 {
+    color: rgb(143, 142, 142);
+}
+
+.info i {
+    color: rgb(138, 9, 155);
+    margin: 0 10px;
+    font-size: large;
+}
+
+.info h2{
+    font-family: 'Hanalei Fill';
+}
+
+.info h4 {
+    color: black;
+    font-family: 'Charmonman';
+    
+}
+
+.email {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: rgba(209, 208, 208, 0.87);
+}
+
+.submit {
+    padding: 10px;
+    color: white;
+    background-color: rgb(78, 8, 143);
+    border: none;
+    border-radius: 3px;
+}
+
+.ghazal {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Vast Shadow';
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

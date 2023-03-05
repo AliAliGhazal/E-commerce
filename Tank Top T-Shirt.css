@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+ /* Header */
+
+ .section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 0px 90px;
+    width: 100%;
+    
+}
+
+/* Nav left */
+
+.navleft .fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.navleft input{
+    margin-left: 15px;
+    border: none;
+    font-size: medium;
+}  
+
+.navleft input:focus{
+    outline: none;
+}
+
+/* End Nav left */
+
+/* Nav Middle */
+
+.navMiddle{
+    border: 3px  black;
+    border-style: double ;
+    font-family: 'Hanalei Fill';
+    padding: 10px;
+    font-size: 138%;
+    margin-left: -7%; 
+    margin-top: -1%; 
+}
+
+/* End Nav Middle */
+
+/* Nav Right */
+
+.two{
+    position: relative;
+    top: -17px;
+    left: 110px;
+    border-radius: 50%;
+    background-color: rgb(163, 6, 163);
+    color: white;
+    padding: 2px 6.5px;
+}
+
+.navright i {
+    margin: 7px;
+    color: gray;
+}
+
+.navright i:hover {
+    color: black;
+}
+
+/* Nav Right */
+
+ /* End Header */
+
+ /* NAV */
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 30px;    
+}
+
+.nav1 a {
+    margin: 0 30px;
+    color: black;
+    font-family: 'Charmonman';
+    font-weight: bold;
+}
+
+.nav1 a:hover {
+    color: rgb(196, 8, 220);
+}
+
+.nav1 .active {
+     color:  rgb(196, 8, 220);
+    border-bottom: 3px solid  rgb(5, 13, 169);
+}
+
+/* End NAV */
+
+/* Div1 */
+
+.link {
+    background-color: rgb(245, 244, 244);
+    padding: 20px 100px;
+    font-family: 'Aclonica';
+    font-size: 120%;
+}
+
+.link span {
+    color: blueviolet;
+}
+
+/* End Div1 */
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+}
+
+.div1{
+     margin-left: 10%;
+}
+
+main h1{
+    font-family: 'Fruktur';
+}
+
+main h2 {
+    color: rgb(70, 1, 134);
+    font-family: 'Charmonman';
+}
+
+main p{
+    font-family: 'Audiowide';
+    font-size: 110%;
+}
+
+.eqq {
+    display: flex;
+}
+
+.eqq button {
+    margin: -3px 0;
+    padding: 0 12px;
+    height: 40px;
+    background-color: white;
+    border-color: rgb(126, 5, 163);
+    color: rgb(126, 5, 163);
+    font-family: 'Fruktur';
+    border-radius: 6px;
+}
+
+.eqq button:hover {
+    color: white;
+    background-color: rgb(70, 1, 134);
+}
+
+
+.eqq h3 {
+    border: 1px solid rgb(193, 193, 193);
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sizo{
+    font-family: 'Aclonica';
+}
+
+.sizo input {
+    margin: 0 10px;
+}
+
+.tto {
+    padding: 7px;
+    background-color: rgb(126, 5, 163);
+    border-radius: 2px;
+    border: none;
+    font-family: 'Vast Shadow';
+    font-size: 110%;
+}
+
+.tto a {
+    color: white;
+}
+
+.tto:hover {
+    background-color: rgb(70, 1, 134);
+}
+
+/* END MAIN */
+
+
+/* Section 5 */
+
+.section5 {
+    display: block;
+    text-align: center;
+    margin: 100px 0;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+}
+.section5 h1{
+    font-family: 'Vast Shadow';
+}
+
+.ee {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.card {
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    background-color: white;
+    padding: 50px;
+    font-family: 'Charmonman';
+    font-weight: 200;
+}
+
+.card a{
+    font-family: 'Hanalei Fill'
+}
+
+.card h2{
+    font-family: 'Fruktur';
+}
+
+.cloth {
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(206, 206, 206);
+    border-radius: 3px;
+
+}
+
+.conzy {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 630px;
+}
+
+.conzy a:hover {
+    color: rgb(175, 175, 175);
+}
+
+.pop {
+    color: rgb(209, 209, 209);
+}
+
+/* End Section 5 */
+
+/* Footer */
+
+footer {
+    display: block;
+    margin: 0 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 5%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.en h2 {
+    margin-left: 50px;
+    font-family: 'Hanalei Fill';
+}
+
+.men {
+    margin: 0 50px;
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 140%;
+}
+
+.men h4 {
+    margin: 10px 0;
+    color: rgb(143, 142, 142);
+    font-family: 'Charmonman';
+}
+
+.div5 h2{
+    font-family: 'Hanalei Fill';
+}
+
+.div5 a{
+    font-family: 'Charmonman';
+    font-weight: 200;
+    font-size: 120%;
+}
+
+.div5 h5{
+    font-family: 'Fruktur';
+    font-weight: 200;
+    font-size: 100%;
+}
+
+
+footer h5 {
+    color: rgb(143, 142, 142);
+}
+
+.info i {
+    color: rgb(138, 9, 155);
+    margin: 0 10px;
+    font-size: large;
+}
+
+.info h2{
+    font-family: 'Hanalei Fill';
+}
+
+.info h4 {
+    color: black;
+    font-family: 'Charmonman';
+    
+}
+
+
+.email {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: rgba(209, 208, 208, 0.87);
+}
+
+.submit {
+    padding: 10px;
+    color: white;
+    background-color: rgb(78, 8, 143);
+    border: none;
+    border-radius: 3px;
+}
+
+.ghazal {
+    padding: 100px;
+    text-align: center;
+    font-family: 'Vast Shadow';
+}
+
+/* End Footer */
